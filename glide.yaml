@@ -4,11 +4,11 @@ import:
   version: ^0.8.0
 - package: github.com/tendermint/go-amino
   version: develop
-- package: github.com/tendermint/tmlibs
+- package: github.com/tendermint/tendermint
   version: develop
   subpackages:
-  - common
-  - db
+  - libs/common
+  - libs/db
 - package: golang.org/x/crypto
   subpackages:
   - ripemd160
